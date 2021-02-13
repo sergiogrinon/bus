@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bus-app"
+    }
+  },
+  "defaultProject": "bus-app",
+  "cli": {
+    "analytics": "6dbdd0e2-5160-40bf-a8bd-96912d93dec1"
+  }
 }
