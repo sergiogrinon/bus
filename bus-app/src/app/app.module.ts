@@ -8,6 +8,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { WelcomeComponent } from './components/unique/welcome/welcome.component';
 import { ContactComponent } from './components/unique/contact/contact.component';
 
+
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 
 //la mejor idea es que la ruta sea una constante de la "clase"
