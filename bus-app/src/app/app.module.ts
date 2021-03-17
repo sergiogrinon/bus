@@ -15,6 +15,7 @@ import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 const routes: Routes = [
   {path: 'contact', component:ContactComponent },
   {path: 'welcome', component:WelcomeComponent },
+  {path: '', redirectTo:'/home' }
 
 
 ]; // sets up routes constant where you define your routes

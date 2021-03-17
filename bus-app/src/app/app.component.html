@@ -1,10 +1,12 @@
-<h1> Futura barra de navegacion</h1>
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+
+<!--CSS pending to add. If the topMenu is too long it would be convient to separate it as a new component.-->
 <nav>
+  <a class="navbar-brand">Angular TopMenu</a>
   <ul>
-    <li><a routerLink="/" routerLinkActive="active">Presentacion</a></li>
-    <li><a routerLink="/contact" routerLinkActive="active">contacto</a></li>
-    <li><a routerLink="/welcome" routerLinkActive="active">Precios</a></li>
+    <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">About</a></li>
+    <li><a routerLink="/welcome" routerLinkActive="active">Courses</a></li>
   </ul>
 </nav>
 <!-- The routed views render in the <router-outlet>-->
